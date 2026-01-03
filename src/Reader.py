@@ -20,7 +20,7 @@ def HeadFormat(filename: str = FILENAME):
                 return headers  # ⬅️ بعد از پیدا شدن فایل خارج شو
 
     return headers  # اگر فایل پیدا نشد → dict خالی
-
+print(HeadFormat())
 
 # def SubReader(file):
 #     data = []
